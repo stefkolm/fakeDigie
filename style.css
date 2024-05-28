@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #fefefe;
+    border-bottom: 2px solid #ededed;
+    display: flex;
+    justify-content: space-between;
+}
+.right-nav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+}
+.right-nav h1{
+    font-weight: 600;
+}
+.right-nav h2{
+    font-weight: 400;
+    width: 130px;
+    font-size: 20px;
+}
+.right-nav button{
+    margin-right: 50px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+}
+.left-nav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.left-nav img{
+    height: 50px;
+    width: auto;
+    margin-left: 25px;
+}
+.digietext{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.digietext h1{
+    font-size: 20px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.digietext h2{
+    font-size: 20px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    text-align: left;
+}
+.main-window{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+.question-nav{
+    height: 100%;
+    width: 300px;
+    background-color: #fefefe;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.question-item{
+    width: 100%;
+    height: 120px;  
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.left-blue{
+    width: 10px;
+    height: 100%;
+    background-color: #1093f4;
+}
+.item-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.item-info h1{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0;
+}
+.item-info h2{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    color: gray;
+}
+.question-answer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.question-container{
+    width: 900px;
+    height: 500px;
+    box-shadow: 1px 1px 10px gray;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.question-details{
+    margin-top: 60px;
+    width: 90%;
+    height: 150px;
+    padding-left: 50px;
+}
+.question-options{
+    width: 90%;
+    height: 150px;
+    padding-left: 50px;
+}
+.question-details h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+.question-details h2{
+    font-weight: 500;
+    font-size: 17px;
+}
+.question-details h3{
+    font-size: 17px;
+}
+.input-container{
+    width: 100%;
+    height: auto;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input-container h1{
+    font-weight: 400;
+}
+.question-buttons{
+    width: 85%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.question-buttons button:hover{
+    cursor: pointer;
+}
+.previous{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.next{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    background-color: #1093f4;
+    border: none;
+    border-radius: 2.5px;
+    color: white;
+}
+.ready{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.handed-in.closed{
+    display: none;
+}
+.handed-in{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.ready{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(73, 73, 73);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digiexam</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="get.js"></script>
+</head>
+<body>
+    <div id="handed" class="handed-in closed">
+        <div class="ready">
+            <img style="width: 300px; height: 300px" src="check.png">
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="left-nav">
+            <img src="settings.png">
+            <div class="digietext">
+                <h1>Digiexam Support</h1>
+                <h2>support@digiexam.se</h2>
+            </div>
+        </div>
+        <div class="right-nav">
+            <h1>7/26</h1>
+            <h2>questions answered</h2>
+            <button id="fetchButton">Hand In</button>
+        </div>
+    </div>
+    <div class="main-window">
+        <div class="question-nav">  
+        </div>
+        <div class="question-answer">
+            <div class="question-container">
+                <div class="question-details">
+                    <h1>1</h1>
+                    <h2>När skapades WWW?</h2>
+                    <h3>Max score: 1</h3>
+                </div>
+                <div class="question-options">
+                    <div class="input-container">
+                        <input type="radio" name="question" value="1">
+                        <h1>Slutet av 90-talet</h1>
+                    </div>
+                    <div class="input-container">
+                        <input type="radio" name="question" value="1">
+                        <h1>Slutet av 90-talet</h1>
+                    </div>
+                    <div class="input-container">
+                        <input type="radio" name="question" value="1">
+                        <h1>Slutet av 90-talet</h1>
+                    </div>
+                </div>
+                <div class="question-buttons">
+                    <button class="previous">Previous question</button>
+                    <button class="next">Next Question</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
